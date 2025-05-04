@@ -54,11 +54,11 @@ export default function TextForm({textArea, mode, showAlert}) {
               color: mode === "dark" ? "white" : "#042743",
             }} rows="8"></textarea>
       </div>
-      <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to UpperCase</button>
-      <button className="btn btn-primary mx-1" onClick={handleLoClick}>Convert to LowerCase</button>
-      <button className="btn btn-primary mx-1" onClick={handleClearText}>Clear Text</button>
-      <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy Text</button>
-      <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to UpperCase</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>Convert to LowerCase</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleClearText}>Clear Text</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
+      <button className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
     </div>
     <div className="container my-3" style={{ color: mode === "dark" ? "white" : "#042743" }}>
       <h2>Your text Summary</h2>
